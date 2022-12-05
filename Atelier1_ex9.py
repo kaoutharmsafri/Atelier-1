@@ -37,6 +37,13 @@ def min_max(List):
     elif choix==2:
         min(List)   
 def mediane(List):
+    for i in range (1,len(List)):
+        if List[i-1] > List[i]:
+            temp=List[i-1]
+            List[i-1]=List[i]
+            List[i]=temp
+            print(List[i])
+    print(List)
     rang=(b+1)/2
     if rang%2==0:
         rang=int((b+1)/2)
