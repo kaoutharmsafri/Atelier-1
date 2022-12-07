@@ -11,4 +11,4 @@ def somme_serie(a):
     for i in range (1,a+1):
         j+=factorielle(i)/i
     return j
-print('la somme de la série est : ',somme_serie(5))      
+print('la somme de la série est : ',somme_serie(a))      
